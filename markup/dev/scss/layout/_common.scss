@@ -1,0 +1,11 @@
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  @extend %clearfix;
+  max-width: $max-width-center-container;
+  padding: $padding-container;
+  margin: 0 auto;
+}
